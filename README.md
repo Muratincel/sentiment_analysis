@@ -1,4 +1,4 @@
-# Our only essential files&folder;
+## Our only essential files&folder;
 
 app.py: The Flask application.
 
@@ -8,8 +8,17 @@ logistic_regression_model.joblib and tfidf_vectorizer.joblib.
 
 templates/ folder: Contains your index.html.
 
+## How this works
 
-# The files for training data;
+python -m venv venv
+
+venv\scripts\activate
+
+pip install -r requirements.txt
+
+run app.py
+
+## The files for training data;
 
 load_data.py: just to loading the data as texts and labels, creating preprocessed_data.csv by using preprocess.py
 
@@ -22,7 +31,7 @@ load_nltk.py: jus to download nltk dependencies
 train_model.py: creating logistic_regression_model.joblib and tfidf_vectorizer.joblib files by training data. basicly creating the model
 
 
-# not clear ? by ai then :)
+## not clear ? by ai then :)
 
 load_data.py: Loads the data as texts and labels and creates preprocessed_data.csv by calling preprocess.py.
 
