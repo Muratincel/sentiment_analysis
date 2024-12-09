@@ -10,7 +10,7 @@ templates/ folder: Contains your index.html.
 
 ## How this works
 
-git clone 
+git clone https://github.com/Muratincel/sentiment_analysis.git
 
 python -m venv venv
 
