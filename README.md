@@ -10,6 +10,8 @@ templates/ folder: Contains your index.html.
 
 ## How this works
 
+git clone 
+
 python -m venv venv
 
 venv\scripts\activate
